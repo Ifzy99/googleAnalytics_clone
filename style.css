@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+marquee{
+    background-color: #000;
+    color: #fff;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+    height: 60px;
+    box-shadow: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 0px;
+
+}
+
+.Glogo img {
+    width: 80px;
+}
+
+header .headerword h3 {
+    font-weight: lighter;
+    font-size: 1.7rem;
+    color:#3D5656;
+    padding: 0 15px;
+}
+
+/* HEADER */
+
+/* Fcourses SECTION */
+
+section #fcourses {
+    background-color: rgb(255, 123, 0);
+    padding: 10px;
+    color: white;
+    font-size: 0.95em;
+    font-weight: bold;
+
+
+}
+
+section #fcourses span {
+    text-decoration: underline;
+}
+
+/* Fcourses SECTION */
+
+/* HERO SECTION */
+
+#hero {
+    display: flex;
+    min-height: 200px;
+    position: relative;
+}
+
+#hero div {
+    width: 50%;
+}
+
+#hero div:nth-of-type(1) {
+    padding: 70px;
+    font-family: Arial, sans-serif;
+}
+
+#hero div h1 {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#hero div p {
+    margin-top: 30px;
+    font-size: 1.5em;
+
+}
+
+#hero div:nth-of-type(2) {
+    background-image: url('https://ssl.gstatic.com/analytics/20220926-00/academy/static/hero_academy.jpg');
+    background-size: contain;
+    background-repeat: round;
+    min-height: inherit;
+}
+
+#hero img {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+    margin-bottom: 15px;
+}
+
+/* HERO SECTION  */
+
+/* COURSES SECTION */
+
+#courses {
+    width: 100%;
+    background-color: rgba(0, 102, 255, 0.774);
+    padding: 30px 0 30px 2px;
+}
+
+#courses .course-head h1{
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 2em;
+    margin: 0 4% 2%;
+   
+}
+
+#courses .wrapper {
+    width: 90%;
+    margin:0 auto;
+    padding: ;
+ }
+
+#courses .flex-courses {
+    display: flex;
+    flex-flow: row wrap;
+    flex-wrap: wrap;
+    
+}
+
+#courses .course-items {
+    flex-basis: 23%;
+    min-height: 400px;
+    width: 25%;
+    background-color: white;
+    font-size: 1em;
+    line-height: 1.5em;
+    text-align: start;
+    margin: 5px ;
+    padding: 0 40px 0 40px;
+
+}
+
+#courses .course-items h4 {
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#courses .course-items p {
+     margin-top: 40px;
+     padding: 0 5px 0 5px;
+}
+
+#courses .course-items img {
+    width: 80px;
+    padding: 10px;
+}
+
+/* COURSES SECTION */
+
+/* INSTRUCTOR SECTION */
+
+#instructors {
+    width: 100%;
+}
+
+#instructors h1 {
+    width:85%;
+    margin: 0 auto;
+    padding: 30px 0px 30px 0px;
+    font-weight: normal;
+    font-size: 2em;
+}
+
+.instructor-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+}
+
+.instructor-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    background-color: #f2f2f2;
+    margin-bottom: 40px;
+    box-shadow: rgba(0,0,0,0.35) 0px 3px 5px;
+}
+
+.instruct-text h2 {
+     padding: 20px;
+     border-bottom: 1px solid grey;
+     font-weight: lighter;
+}
+
+.instruct-text p {
+    margin: 0px auto;
+    padding: 18px;
+    line-height: 1.5em;
+    font-weight: 30px;
+
+}
+
+.instruct-image {
+    display: inline-block;
+}
+
+/* INSTRUCTOR SECTION */
+
+/* MIN-COURSES */
+
+#Min-courses {
+    display: flex;
+    flex-direction:row;
+    flex-flow:wrap;
+    justify-content: space-between;
+    min-height:30vh;
+    gap: 10px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 3% 5%;
+
+}
+
+#Min-courses h1 {
+    font-weight: lighter;
+}
+
+#Min-courses p{
+    /* padding: 2%; */
+}
+
+
+.min-course-container {
+    width: 90%;
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+}
+
+.minicourses-card {
+    min-height: 20vh;
+    padding: 20px;
+    text-align: center;
+    flex-basis: 28%;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 5px;
+    background-color: rgba(238, 234, 234, 0.945);
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+.min-image img {
+    width: 30%;
+}
+ 
+/* MIN-COURSES */
+
+/* ADDITIONAL RESOURCES */
+
+#Resources {
+    background-color: rgb(238, 234, 234, 0.945);
+    width: 100%;
+}
+
+#Resources h3 {
+    padding: 25px 0px 25px;
+    width: 85%;
+    margin: 0 auto;
+    font-weight: lighter;
+   
+    
+}
+
+.resource-wrapper {
+    border-top: thin solid grey;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0px 50px 0px;
+
+}
+.links {
+    width: 85%;
+    flex-basis:20% ;
+    display:inline-flex;
+    padding: 3%;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.links-text {
+   padding-top: 10px;
+   flex-basis: 80%;
+   text-align: center;
+   margin: 0px 25% 0px 25%;
+
+}
+
+.links div img {
+    flex-basis: 20%;
+}
+
+/* ADDITIONAL RESOURCES */
+
+
+
+
